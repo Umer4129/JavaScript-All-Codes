@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+//         // logical AND
+// console.log(true && true); // true
+// console.log(true && false); // false
+
+// // logical OR
+// console.log(true || false); // true
+
+// // logical NOT
+// console.log(!true); // false
+
+    var year = 2018;
+ 
+    // Leap years are divisible by 400 or by 4 but not 100
+    if((year % 400 == 0) || ((year % 100 != 0) && (year % 4 == 0))){
+        document.write(year + " is a leap year.");
+    } else{
+        document.write(year + " is not a leap year.");
+    }
+    </script>
+</body>
+</html>
