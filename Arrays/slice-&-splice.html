@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        // Slice mehtod
+//         var colors = ['red','green','blue','yellow','purple'];
+// var rgb = colors.slice(0,3);
+// console.log(rgb);
+// document.write("The given array is as follows :" + colors )
+// document.write("The sliced array is as follows : " + rgb );
+// Splice Method
+         var arr = ["orange", "mango", "banana", "sugar", "tea"];         
+         var removed = arr.splice(2, 0, "water");
+         document.write("After adding 1: " + arr );
+         document.write("<br />removed is: " + removed);
+         
+         removed = arr.splice(3, 1);
+         document.write("<br />After adding 1: " + arr );
+         document.write("<br />removed is: " + removed);
+    </script>
+</body>
+</html>
