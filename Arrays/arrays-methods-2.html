@@ -1,0 +1,50 @@
+<!-- 
+    JavaScript Methods
+concate():- Join two or more array and returns a result.
+indexOf():- Search an element to an array returns its position.
+forEach():- call a function for each array element.
+includes():- Check a array contains specific element.
+push():- Adds a new element to the array and returns a new length array.
+pop():- Remove the last item of an array and returns deleted.
+shift():- Remove the first item of an array and returns the removed item.
+sort():- Sort the array element alphabetically in a string in ascending order.
+slice():- select the part of an array and returns the new array.
+ -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+
+var fruits = ['Banana', 'Apple', 'Mango', 'Orange'];
+var newitem = 'Lemon';
+
+
+// sort the array.
+console.log(fruits.sort());
+
+// add item to an array.
+cosole.log(fruits.push(newitem));
+
+// remove item from an array.
+console.log(fruits.pop());
+
+// sclicing an array.
+console.log(fruits.slice(1));
+
+
+// concatenate two arrays.
+
+let newArray = fruits.concate(newitem);
+console.log(newArray);
+
+// Finding the index position of the string.
+console.log(fruits.indexOf('Mango'));
+    </script>
+</body>
+</html>
